@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+		<link href="./output.css" rel="stylesheet" />
+		<title>Newton And Emberly</title>
+	</head>
+	<body>
+		<div>
+			<nav class="relative container mx-auto py-6">
+				<div class="flex items-center justify-between">
+					<!-- Logo -->
+					<a class="pt-2" href="./index.html">
+						<img src="./img/logo.png" alt="" class="h-11" />
+					</a>
+					<!-- Menu Items -->
+					<div class="hidden space-x-6 md:flex">
+						<a href="./index.html/#about-us" class="hover:text-company-grey"
+							>About Us</a
+						>
+						<a
+							href="./index.html/#meet-our-team"
+							class="hover:text-company-grey"
+							>Meet Our Team</a
+						>
+						<a href="./our-subsidiaries.html" class="hover:text-company-grey"
+							>Our subsidiaries</a
+						>
+						<a href="#contact-us">Contact Us</a>
+					</div>
+					<!-- Contact us Button -->
+					<a
+						href="#"
+						class="hidden md:block p-3 px-6 pt-2 bg-green-700 rounded-full baseline hover:bg-white text-gray-900"
+						>Call Us: +(234)8035319737
+					</a>
+				</div>
+			</nav>
+			<div class="container items-center text-center py-10">
+				<img src="img/thank-you.png" alt="" />
+				<h3 class="text-3xl py-5">
+					Hang in there! You would here from us soon.
+				</h3>
+				<p>
+					Thank you for reaching out to us! We are always happy to here from
+					you, and we would reach out to you as soon as we can.
+				</p>
+			</div>
+		</div>
+		<!-- Newton and Emberly Email listing page -->
+		<footer id="contact-us" class="bg-green-700">
+			<div class="footer-container">
+				<section class="footer-subscription">
+					<p class="footer-subscription-heading">Contact Us Today!</p>
+					<p class="footer-subscription-text">
+						We would love to hear from you....
+					</p>
+
+					<div class="w-full md:w-96 md:max-w-full mx-auto">
+						<div>
+							<form
+								method="POST"
+								action="https://formsubmit.co/newtonandemberly@gmail.com"
+								class="text-gray-900"
+							>
+								<label class="block mb-6">
+									<input
+										type="text"
+										class="block w-full h-11 mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										placeholder="Name"
+										required
+									/>
+								</label>
+								<label class="block mb-6">
+									<input
+										name="email"
+										type="email"
+										class="block w-full h-11 mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										placeholder="Email Address"
+										required
+									/>
+								</label>
+								<label class="block mb-6">
+									<textarea
+										name="message"
+										class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										rows="10"
+										placeholder="Tell us why you want to hear from us..."
+										required
+									></textarea>
+								</label>
+								<div class="mb-6">
+									<button type="submit" class="text-white">Submit!</button>
+								</div>
+								<input
+									type="hidden"
+									name="_next"
+									value="http://127.0.0.1:5501/public/thank-you.html"
+								/>
+							</form>
+						</div>
+						<small class="website-rights"
+							>Newton and Emberly Limited ©2022
+						</small>
+					</div>
+				</section>
+			</div>
+		</footer>
+	</body>
+</html>
