@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-pattern {
-	background-image: url("../public/img/bg-hero-section.svg");
+	background-image: url("/img/bg-hero-section.svg");
 	background-repeat: no-repeat;
 	background-size: 900px;
 	background-position: top -8% right -15%;
