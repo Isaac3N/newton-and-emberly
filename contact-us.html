@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+		<link href="/css/output.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+		<title>Newton And Emberly</title>
+		<style>
+			body {
+				background-image: url("img/bg-hero-section.svg");
+				background-repeat: no-repeat;
+				background-size: 700px;
+				background-position: left -8% right -15%;
+			}
+
+			@media (max-width: 576px) {
+				.bg-pattern {
+					background-position: 50px 50px;
+					background-size: 600px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+		<nav class="relative container mx-auto py-6">
+			<div class="flex items-center justify-between">
+				<!-- Logo -->
+				<a class="pt-2" href="./index.html">
+					<img src="/img/logo.png" alt="" class="h-11" />
+				</a>
+				<!-- Menu Items -->
+				<div class="hidden space-x-6 md:flex">
+					<a href="#about-us">About Us</a>
+					<a href="./our-team.html">Meet Our Team</a>
+					<a href="./our-subsidiaries.html">Our subsidiaries</a>
+					<a href="/contact-us.html">Contact Us</a>
+				</div>
+				<!-- Contact us Button -->
+				<a
+					href="#"
+					class="hidden md:block p-3 px-6 pt-2 bg-green-700 rounded-full baseline hover:bg-white text-gray-900"
+					>Call Us: +(234)8035319737
+				</a>
+				<!-- Hamburger Icon -->
+				<button
+					id="menu-btn"
+					class="block hamburger md:hidden focus:outline-none"
+				>
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				</button>
+			</div>
+			<!-- Mobile Menu -->
+			<div class="md:hidden">
+				<div
+					id="menu"
+					class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+				>
+					<a href="#about-us">About Us</a>
+					<a href="./our-team.html">Meet Our Team</a>
+					<a href="./our-subsidiaries.html">Our subsidiaries</a>
+					<a href="/contact-us.html">Contact Us</a>
+					<!-- Contact us Button -->
+					<a
+						href="#"
+						class="md:block p-3 px-6 pt-2 bg-green-700 rounded-full baseline hover:bg-white text-gray-900"
+						>Call Us: +(234)8035319737
+					</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Heading -->
+		<div id="get-in-touch" class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+			<img class="mt-4" style="width: 800px" src="/img/contact-us.jpg" alt="" />
+		</div>
+		<section id="contact-us" class="py-10 mt-20">
+			<div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+				<h1 class="text-3xl text-center font-bold">Contact Us</h1>
+			</div>
+			<!-- Cards -->
+			<div
+				class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16"
+			>
+				<!-- Card 1  -->
+				<div class="flex flex-col rounded-md shadow-md lg:mb-16">
+					<div class="p-6 flex flex-col items-center">
+						<i class="fa-solid fa-location-pin"></i>
+						<h3 class="mt-5 mb-2 text-lg">Our location</h3>
+						<p class="mb-2 font-light">
+							27 Oyero Street Alhaji Jimoh Off Adeniyi Jones Ikeja Lagos Nigeria
+						</p>
+					</div>
+				</div>
+
+				<!-- Card 2  -->
+				<div class="flex flex-col rounded-md shadow-md lg:mb-16">
+					<div class="p-6 flex flex-col items-center">
+						<i class="fa-solid fa-phone"></i>
+						<h3 class="mt-5 mb-2 text-lg">Call Us !</h3>
+						<p class="mb-2 font-light">
+							+2348035319737, +2349124088078, +2348033996364
+						</p>
+					</div>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="flex flex-col rounded-md shadow-md lg:mb-16">
+					<div class="p-6 flex flex-col items-center">
+						<i class="fa-solid fa-envelope"></i>
+						<h3 class="mt-5 mb-2 text-lg">Email Us !</h3>
+						<p class="font-light">newtonandemberly@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+			<h1 class="text-3xl mt-10 text-center font-bold py-10 sm:text-2xl">
+				You can find us here!
+			</h1>
+			<div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe
+						width="100%"
+						height="100%"
+						id="gmap_canvas"
+						src="https://maps.google.com/maps?q=27,%20Oyero%20Street,%20Off%20Alhaji%20Jimoh,%20Adeniyi%20Jones,%20Ikeja,%20Lagos.%20&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+						frameborder="0"
+						scrolling="no"
+						marginheight="0"
+						marginwidth="0"
+					></iframe
+					><a href="https://fmovies-online.net">fmovies</a><br />
+					<style>
+						.mapouter {
+							position: relative;
+							text-align: right;
+							height: 100%;
+							width: 100%;
+						}</style
+					><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+					<style>
+						.gmap_canvas {
+							overflow: hidden;
+							background: none !important;
+							height: 100%;
+							width: 100%;
+						}
+					</style>
+				</div>
+			</div>
+		</div>
+		<!-- Newton and Emberly Email listing page -->
+		<footer id="contact-us" class="bg-green-700">
+			<div class="footer-container">
+				<section class="footer-subscription">
+					<p class="footer-subscription-heading">Contact Us Today!</p>
+					<p class="footer-subscription-text">
+						We would love to hear from you....
+					</p>
+
+					<div class="w-full md:w-96 md:max-w-full mx-auto">
+						<div>
+							<form
+								method="POST"
+								action="https://formsubmit.co/newtonandemberly@gmail.com"
+								class="text-gray-900"
+							>
+								<label class="block mb-6">
+									<input
+										type="text"
+										class="block w-full h-11 mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										placeholder="Name"
+										required
+									/>
+								</label>
+								<label class="block mb-6">
+									<input
+										name="email"
+										type="email"
+										class="block w-full h-11 mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										placeholder="Email Address"
+										required
+									/>
+								</label>
+								<label class="block mb-6">
+									<textarea
+										name="message"
+										class="block w-full mt-1 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+										rows="10"
+										placeholder="Tell us why you want to hear from us..."
+										required
+									></textarea>
+								</label>
+								<div class="mb-6">
+									<button type="submit" class="text-white">Submit!</button>
+								</div>
+								<input
+									type="hidden"
+									name="_next"
+									value="http://127.0.0.1:5501/public/thank-you.html"
+								/>
+							</form>
+						</div>
+						<small class="website-rights"
+							>Newton and Emberly Limited ©2022
+						</small>
+					</div>
+				</section>
+			</div>
+		</footer>
+	</body>
+
+	<script>
+		const btn = document.getElementById("menu-btn");
+		const nav = document.getElementById("menu");
+
+		btn.addEventListener("click", () => {
+			btn.classList.toggle("open");
+			nav.classList.toggle("flex");
+			nav.classList.toggle("hidden");
+		});
+	</script>
+</html>
